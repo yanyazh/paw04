@@ -31,6 +31,7 @@ p{
 h1{
   font-family: Arial, sans-serif;
   color: white;
+  margin: 0.5cm;
 }
 
 .headerH1{
@@ -104,6 +105,14 @@ button:disabled{
 
 /* Make buttons take equal width */
 .button-container button {
+  flex: 1; /* Make all buttons grow equally */
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  white-space: nowrap; /* Prevent text from wrapping inside buttons */
+}
+
+.joke-container{
   flex: 1; /* Make all buttons grow equally */
   padding: 10px;
   margin: 5px;
