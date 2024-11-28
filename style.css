@@ -31,7 +31,7 @@ p{
 h1{
   font-family: Arial, sans-serif;
   color: white;
-  margin: 0.5cm;
+  /* margin: 0.5cm; */
 }
 
 .headerH1{
@@ -100,7 +100,7 @@ button:disabled{
   flex-wrap: wrap; /* Allow buttons to wrap to new lines if necessary */
   justify-content: space-between; /* Distribute buttons evenly with space between */
   gap: 10px; /* Optional: Add some spacing between buttons */
-  padding: 10px;
+  padding: 0.5cm;
 }
 
 /* Make buttons take equal width */
